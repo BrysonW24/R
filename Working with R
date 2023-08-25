@@ -1,0 +1,29 @@
+---
+title: "ggplot_hook"
+author: "Bryson Walter"
+date: "2023-05-29"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+## Setting up my environment
+Notes: Setting up my R environment by loading the 'tidyverse' and 'palmerpenguins' packages
+
+```{r loading packages}
+library(tidyverse)
+library(palmerpenguins)
+```
+
+```{r ggplot for pengiun data}
+library(ggplot2)
+library(palmerpenguins)
+data(penguins)
+View(penguins)
+```
+
+``{r ggplot for penguin data viz}
+ggplot(data = penguins)+
+  geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g))
+``
+

@@ -1,0 +1,64 @@
+https://sites.calvin.edu/scofield/courses/m143/materials/RcmdsFromClass.pdf
+
+Command                   Purpose
+help()                     Obtain documentation for a given R command
+example()                  View some examples on the use of a command
+c(), scan() Enter data manually to a vector in R
+seq() Make arithmetic progression vector
+rep() Make vector of repeated values
+data() Load (often into a data.frame) built-in dataset
+View() View dataset in a spreadsheet-type format
+str() Display internal structure of an R object
+read.csv(), read.table() Load into a data.frame an existing data file
+library(), require() Make available an R add-on package
+dim() See dimensions (# of rows/cols) of data.frame
+length() Give length of a vector
+ls() Lists memory contents
+rm() Removes an item from memory
+names() Lists names of variables in a data.frame
+hist() Command for producing a histogram
+histogram() Lattice command for producing a histogram
+stem() Make a stem plot
+table() List all values of a variable with frequencies
+xtabs() Cross-tabulation tables using formulas
+mosaicplot() Make a mosaic plot
+cut() Groups values of a variable into larger bins
+mean(), median() Identify “center” of distribution
+by() apply function to a column split by factors
+summary() Display 5-number summary and mean
+var(), sd() Find variance, sd of values in vector
+sum() Add up all values in a vector
+quantile() Find the position of a quantile in a dataset
+barplot() Produces a bar graph
+barchart() Lattice command for producing bar graphs
+boxplot() Produces a boxplot
+bwplot() Lattice command for producing boxplots
+
+Command Purpose
+plot() Produces a scatterplot
+xyplot() Lattice command for producing a scatterplot
+lm() Determine the least-squares regression line
+anova() Analysis of variance (can use on results of lm())
+predict() Obtain predicted values from linear model
+nls() estimate parameters of a nonlinear model
+residuals() gives (observed - predicted) for a model fit to data
+sample() take a sample from a vector of data
+replicate() repeat some process a set number of times
+cumsum() produce running total of values for input vector
+ecdf() builds empirical cumulative distribution function
+dbinom(), etc. tools for binomial distributions
+dpois(), etc. tools for Poisson distributions
+pnorm(), etc. tools for normal distributions
+qt(), etc. tools for student t distributions
+pchisq(), etc. tools for chi-square distributions
+binom.test() hypothesis test and confidence interval for 1 proportion
+prop.test() inference for 1 proportion using normal approx.
+chisq.test() carries out a chi-square test
+fisher.test() Fisher test for contingency table
+t.test() student t test for inference on population mean
+qqnorm(), qqline() tools for checking normality
+addmargins() adds marginal sums to an existing table
+prop.table() compute proportions from a contingency table
+par() query and edit graphical settings
+power.t.test() power calculations for 1- and 2-sample t
+anova() compute analysis of variance table for fitted model

@@ -1,0 +1,24 @@
+install.packages(murders)
+library(murders)
+
+murders$state[which.max(murders$population)]
+
+max(murders$population)
+
+name <- c("mandi", "amy", "nicole", "olivia")
+distance <- c(0.8, 3.1, 2.8, 4.0)
+time <- c(10, 30, 40, 50)
+
+hours <- time/60
+hours
+
+speed_km <- distance/hours
+speed_km
+
+mi_distance <- distance*0.62
+mi_distance
+
+0.8*60/10=48/10=4.8
+
+speed_mi <- mi_distance/hours
+speed_mi

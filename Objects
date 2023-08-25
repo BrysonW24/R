@@ -1,0 +1,97 @@
+#R Basics
+--------------
+  #Objects
+  
+#solve x(2) + x - 1 = 0
+
+a <- 1
+b <- 1
+c <- -1
+
+a
+
+a*2 + b - c
+
+#quadratic formula in R
+(-b + sqrt(b^2 - 4*a*c))/(2*a)
+
+(-b - sqrt(b^2 - 4*a*c))/(2*a)
+
+#Shows you all the variables in the environment (top right) active
+ls()
+
+--------------
+  #Functions
+  
+log(8)
+
+log(a)
+
+#Nested Functions - call a function that's going to be used by another function
+exp(1)
+log(2.718)
+log(exp(1))
+
+#Arguements
+#Some are required, some are optional
+
+args(log)
+# == function (x, base = exp(1))
+
+log(x=8, base=2)
+#3
+
+log(8, 2)
+#3
+
+# 2 to the power of 3
+2^3
+
+#help arithmetic operators - this will populate in bottom right pane
+help("+")
+
+# Arithmetic Operators
+# Description
+# These unary and binary operators perform arithmetic on numeric or complex vectors (or objects which can be coerced to them).
+# 
+# Usage
+# + x
+# - x
+# x + y
+# x - y
+# x * y
+# x / y
+# x ^ y
+# x %% y
+# x %/% y
+
+# Mathematical objects
+
+pi #number of pi
+
+Inf #infinity
+
+#Variable Names
+# -> Make it readible
+# -> Have to start with a letter
+# -> Cannot contain spaces
+# -> Avoid pre-existing functions
+# -> Use meaningful words 
+# -> Use underscores instead of spaces
+
+?mean
+
+?"+"
+
+
+
+
+
+
+
+
+
+
+
+
+

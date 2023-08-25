@@ -1,0 +1,47 @@
+#Q1
+# Use R to compute log base 4 of 1024. 
+# You can use the help() function to learn how to use arguments 
+#to change the base of the log() function.
+
+help(log)
+#log(x, base)
+log(1024, 4)
+#5
+
+#Q2
+# The movielens dataset in the dslabs package includes data 
+# on a variety of movies and their rating by a particular user. 
+# Load the movielens dataset:
+# library(dslabs)
+# data(movielens)
+
+install.packages("dslabs")
+
+library(dslabs)
+data("movielens")
+
+#Q2a
+#How many rows are in the dataset?
+str(movielens)
+#100004
+
+#Q2b
+#How many different variables are in the dataset?
+str(movielens)
+#7
+
+# Q2c
+# What is the variable type of title ?
+It is a character (chr) variable  
+
+# Q2d
+# What is the variable type of genres ?
+It is a factor (Factor) variable
+
+# Q3
+# We already know we can use the levels() function to determine the levels of a factor. 
+# A different function, nlevels(), may be used to determine the number of levels of a factor.
+# Use this function to determine how many levels are in the factor genres in the movielens data frame.
+
+nlevels(movielens$genres)
+#901
